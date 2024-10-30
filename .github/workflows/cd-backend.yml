@@ -16,7 +16,7 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v4
             - name: Deploy 
-              uses: johnbeymon/render-deploy-action@master
+              uses: johnbeynon/render-deploy-action@master
               with: 
                 service-id: ${{ secrets.RENDER_SERVICE_ID }}
                 api-key: ${{ secrets.RENDER_API_KEY }}
